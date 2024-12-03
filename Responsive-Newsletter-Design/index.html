@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Newsletter</title>
+    <style>
+        /* General Reset for Email */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%; /*prevent fot scaling in mobile devices */
+            -ms-text-size-adjust: 100%;/*prevent font scaling in windows devices */
+
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive Styles */
+
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100% !important;
+                padding: 10px;
+            }
+
+            .hero-text h1 {
+                font-size: 24px !important;
+            }
+            .cta-button {
+                padding: 15px 20px !important;
+                font-size: 16px !important;
+            }
+        }
+    </style>
+</head>
+<body style="margin :0; padding: 0; background-color: #f4f4f4;">
+    <table align="center" width="100%" bgcolor="#f4f4f4" style="max-width: 600px; margin: auto;">
+        <!-- Header -->
+         <tr>
+            <td align="center" bgcolor="#007bff" style="padding: 20px;">
+                <h1 style="color: #fff; font-size: 28px; margin: 0;">ReelTech STEM Lab</h1>
+            </td>
+         </tr>
+
+         <!-- Hero -->
+          <tr>
+            <td>
+                <img src="https://github.com/johannejoshua/Portfolio/blob/main/images/_d38101d2-23ca-45cc-ae15-4710438422bf.jpg?raw=true" alt="hero-image" style="width: 100%; height: auto;">
+            </td>
+          </tr>
+
+          <!-- Hero text -->
+           <tr>
+            <td style="padding: 20px; background-color: #ffffff;">
+                <div class="hero-text" style="text-align: center;">
+                    <h1 style="color: #333; font-size: 28px; margin: 0;">Welcome to our Newsletter</h1>
+                    <p style="color: #555; text-align: justify; font-size: 16px; margin-top: 10px;">Coding Kids Newsletter<br><br><br>
+
+                        Issue: December 2024<br><br><br>
+                        
+                        Welcome to Coding Kids!<br><br><br>
+                        
+                        Hi Parents, Guardians, and Aspiring Young Coders!<br><br>
+                        
+                        Welcome to the December issue of the Coding Kids Newsletter! We’re excited to share updates, achievements, and fun coding activities to keep the learning momentum going. Whether your child is a beginner or an advanced coder, there’s something for everyone here.<br><br>
+                        
+                        This Month’s Highlights<br><br>
+                        
+                        Spotlight Project: Code a Holiday Card!<br><br>
+                        
+                        This month, we’re creating interactive holiday cards using HTML, CSS, and JavaScript! This project is a fun way for kids to express their creativity and showcase their coding skills.<br><br>
+                        
+                        Tip: Encourage your child to share their creations with friends and family.<br><br>
+                        
+                        Student Showcase: Rising Stars<br><br>
+                        
+                        A big shoutout to these amazing coders:<br><br>
+                        
+                        Emma K. for her Python-based number guessing game.<br><br>
+                        
+                        Liam T. for building a functional weather app.<br><br>
+                        
+                        Sophia R. for designing her first personal portfolio website.<br><br>
+                        
+                        Keep up the great work, coders! Want to be featured next month? Submit your projects by December 20th.<br><br>
+                        
+                        What’s New?<br><br>
+                        
+                        Workshops & Events<br><br>
+                        
+                        Beginner Python Workshop: December 9th at 5 PM (Online). Learn the basics of Python and build a simple game!<br><br>
+                        
+                        Hackathon Prep Session: December 15th at 3 PM. Tips and tricks to get ready for coding competitions.<br><br>
+                        
+                        Resources for Young Coders<br><br>
+                        
+                        Scratch for Beginners<br><br>
+                        
+                        FreeCodeCamp<br><br>
+                        
+                        Code.org Hour of Code<br><br>
+                        
+                        Coding Tip of the Month<br><br>
+                        
+                        Practice Makes Perfect!<br><br>
+                        Coding is like learning a new language—the more you practice, the better you’ll get. Set aside at least 15 minutes a day to work on a project or try a new coding challenge.<br><br>
+                        
+                        Fun Challenge: Emoji Decoder<br><br>
+                        
+                        Decode this message using binary code (hint: 1s and 0s represent letters):<br><br>
+                        
+                        01001000 01001001<br><br>
+                        
+                        Send us your answers for a chance to win a special Coding Kids badge!<br><br>
+                        
+                        Looking Ahead: January 2025<br><br>
+                        
+                        Here’s what to expect in next month’s issue:<br><br>
+                        
+                        Coding resolutions for the new year.<br><br>
+                        
+                        A deep dive into robotics programming.<br><br>
+                        
+                        Details on our upcoming winter coding camp!<br><br>
+                        
+                        Stay Connected<br><br>
+                        
+                        Follow us on:<br><br>
+                        
+                        Instagram: @codingkids<br><br>
+                        
+                        Twitter: @kidswhocode<br><br>
+                        
+                        Email: support@codingkids.com<br><br>
+                        
+                        Thank you for being part of the Coding Kids community. Let’s keep inspiring the next generation of tech innovators!<br><br>
+                        
+                        Happy Coding!The Coding Kids Team<br><br>
+                        
+                        </p>
+                </div>
+            </td>
+           </tr>
+
+           <!--Call to Action -->
+           <tr>
+            <td style="padding: 20px; background-color: #ffffff; text-align: center;">
+                <a href="#" class="cta-button" style="display: inline-block; padding: 10px 20px; font-size: 18px; color: #ffffff; background-color: #007bff; text-decoration: none; border-radius: 5px;">Learn More</a>
+            </td>
+           </tr>
+
+           <!-- Footer -->
+            <tr>
+                <td style="padding: 20px; text-align: center; background-color: #f4f4f4; font-size: 14px; color: #888;">
+                    <p>You are receiving this email because you signed up for updates ReelTech STEM Lab</p>
+
+                    <p><a href="#" style="color: #007bff; text-decoration: none;">Unsubscribe</a></p>
+                </td>
+            </tr>
+    </table>
+    
+</body>
+</html>
